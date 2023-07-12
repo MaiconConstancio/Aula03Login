@@ -1,0 +1,10 @@
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\bin\Debug\Aula03Login.exe.config
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\bin\Debug\Aula03Login.exe
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\bin\Debug\Aula03Login.pdb
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.Properties.Resources.resources
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.csproj.GenerateResource.cache
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.csproj.CoreCompileInputs.cache
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.exe
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.pdb
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.Login.resources
+C:\Users\maicon.sconstancio\source\repos\Aula03Login\Aula03Login\obj\Debug\Aula03Login.csproj.AssemblyReference.cache

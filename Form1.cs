@@ -38,6 +38,8 @@ namespace Aula03Login
             {
                 //MessageBox.Show($"Seja bem-vindo {nome}! :D");
                 MessageBox.Show("Você conectou!");
+                this.Size = new Size(481, 270);
+                TITULO.Location = new Point(167, 20);
                 panelSaldo.Show();
             }
             else
@@ -56,6 +58,11 @@ namespace Aula03Login
             //painelSaldo.Visible = true;
 
 
+
+        }
+
+        private void TITULO_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -35,11 +35,11 @@ namespace Aula03Login
             this.CaixaDoLogin = new System.Windows.Forms.TextBox();
             this.CaixaDaSenha = new System.Windows.Forms.TextBox();
             this.panelSaldo = new System.Windows.Forms.Panel();
-            this.txtAUMENTARsaldo = new System.Windows.Forms.TextBox();
-            this.lblSeuSALDO = new System.Windows.Forms.Label();
-            this.BotaoSALVARsaldo = new System.Windows.Forms.Button();
-            this.TITULO = new System.Windows.Forms.Label();
             this.AumentarSALDO = new System.Windows.Forms.CheckBox();
+            this.BotaoSALVARsaldo = new System.Windows.Forms.Button();
+            this.lblSeuSALDO = new System.Windows.Forms.Label();
+            this.txtAUMENTARsaldo = new System.Windows.Forms.TextBox();
+            this.TITULO = new System.Windows.Forms.Label();
             this.panelSaldo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -108,25 +108,17 @@ namespace Aula03Login
             this.panelSaldo.TabIndex = 5;
             this.panelSaldo.Visible = false;
             // 
-            // txtAUMENTARsaldo
+            // AumentarSALDO
             // 
-            this.txtAUMENTARsaldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAUMENTARsaldo.Location = new System.Drawing.Point(18, 109);
-            this.txtAUMENTARsaldo.Multiline = true;
-            this.txtAUMENTARsaldo.Name = "txtAUMENTARsaldo";
-            this.txtAUMENTARsaldo.Size = new System.Drawing.Size(79, 26);
-            this.txtAUMENTARsaldo.TabIndex = 7;
-            // 
-            // lblSeuSALDO
-            // 
-            this.lblSeuSALDO.AutoSize = true;
-            this.lblSeuSALDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeuSALDO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblSeuSALDO.Location = new System.Drawing.Point(55, 24);
-            this.lblSeuSALDO.Name = "lblSeuSALDO";
-            this.lblSeuSALDO.Size = new System.Drawing.Size(109, 17);
-            this.lblSeuSALDO.TabIndex = 8;
-            this.lblSeuSALDO.Text = "Seu saldo: R$ 0";
+            this.AumentarSALDO.AutoSize = true;
+            this.AumentarSALDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AumentarSALDO.ForeColor = System.Drawing.Color.Coral;
+            this.AumentarSALDO.Location = new System.Drawing.Point(19, 88);
+            this.AumentarSALDO.Name = "AumentarSALDO";
+            this.AumentarSALDO.Size = new System.Drawing.Size(88, 21);
+            this.AumentarSALDO.TabIndex = 10;
+            this.AumentarSALDO.Text = "Aumentar";
+            this.AumentarSALDO.UseVisualStyleBackColor = true;
             // 
             // BotaoSALVARsaldo
             // 
@@ -140,35 +132,44 @@ namespace Aula03Login
             this.BotaoSALVARsaldo.Text = "Salvar";
             this.BotaoSALVARsaldo.UseVisualStyleBackColor = true;
             // 
+            // lblSeuSALDO
+            // 
+            this.lblSeuSALDO.AutoSize = true;
+            this.lblSeuSALDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSeuSALDO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblSeuSALDO.Location = new System.Drawing.Point(55, 24);
+            this.lblSeuSALDO.Name = "lblSeuSALDO";
+            this.lblSeuSALDO.Size = new System.Drawing.Size(109, 17);
+            this.lblSeuSALDO.TabIndex = 8;
+            this.lblSeuSALDO.Text = "Seu saldo: R$ 0";
+            // 
+            // txtAUMENTARsaldo
+            // 
+            this.txtAUMENTARsaldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAUMENTARsaldo.Location = new System.Drawing.Point(18, 109);
+            this.txtAUMENTARsaldo.Multiline = true;
+            this.txtAUMENTARsaldo.Name = "txtAUMENTARsaldo";
+            this.txtAUMENTARsaldo.Size = new System.Drawing.Size(79, 26);
+            this.txtAUMENTARsaldo.TabIndex = 7;
+            // 
             // TITULO
             // 
             this.TITULO.AutoSize = true;
             this.TITULO.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TITULO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.TITULO.Location = new System.Drawing.Point(140, 20);
+            this.TITULO.Location = new System.Drawing.Point(35, 22);
             this.TITULO.Name = "TITULO";
             this.TITULO.Size = new System.Drawing.Size(167, 20);
             this.TITULO.TabIndex = 6;
             this.TITULO.Text = "CONTADORA MIKE";
-            // 
-            // AumentarSALDO
-            // 
-            this.AumentarSALDO.AutoSize = true;
-            this.AumentarSALDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AumentarSALDO.ForeColor = System.Drawing.Color.Coral;
-            this.AumentarSALDO.Location = new System.Drawing.Point(19, 88);
-            this.AumentarSALDO.Name = "AumentarSALDO";
-            this.AumentarSALDO.Size = new System.Drawing.Size(88, 21);
-            this.AumentarSALDO.TabIndex = 10;
-            this.AumentarSALDO.Text = "Aumentar";
-            this.AumentarSALDO.UseVisualStyleBackColor = true;
+            this.TITULO.Click += new System.EventHandler(this.TITULO_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(459, 273);
+            this.ClientSize = new System.Drawing.Size(234, 231);
             this.Controls.Add(this.TITULO);
             this.Controls.Add(this.panelSaldo);
             this.Controls.Add(this.CaixaDaSenha);
